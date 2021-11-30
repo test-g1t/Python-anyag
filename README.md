@@ -1,2 +1,2 @@
-# Python-anyag
->valami test
+# Python anyag | iskolához
+>Author: Szász Roland
