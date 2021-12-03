@@ -40,6 +40,21 @@ print(numbers)
 
 # ---------------------------------------------------------------------------------------------
 
+# Fűzzük a 6-os számot a lista VÉGÉRE
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(0, "új elem")
+print(numbers)
+
+###################################
+# name.insert(x, y)
+# name ==> a listád neve
+# x ==> az a szám ami megadja, hogy melyi helyre kerüljön az új elem   !Figyenj a sorrendre!
+# y ==> a tag amit hozzá akarsz adni (ha stringet akarsz hozzádani akkor "" - ba kell tenni)
+# hozáfűzi a megadott karaktert a lista ELEJÉRE [<== FONTOS HOGY A ELEJÉRE TESZI]
+###################################
+
+# ---------------------------------------------------------------------------------------------
+
 # Írassuk ki a programunkal a listának a hosszát
 myList = [1, 2, "ListaElem", 20, 2.2]
 print("A lista", len(myList), "tag hosszú.")
