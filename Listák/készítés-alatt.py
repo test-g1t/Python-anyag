@@ -1,14 +1,17 @@
-# alap lista
+# alap lista formája
 numbers = [10, 5, 7, 2, 1]
 print("Ez az eredeti lista", numbers)
 
 # ---------------------------------------------------------------------------------------------
 
+# sorrend a listákban
 newList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# az 1 ==> 0.-ik tag,
+###################################
+# 1 ==> 0.-ik tag,
 # 2 ==> az 1. tag
 # és így tovább
 # ez minden listában így van
+###################################
 
 # ---------------------------------------------------------------------------------------------
 
@@ -19,9 +22,9 @@ numbers[0] = 111
 print("Ez a változtatott listánk:", numbers)
 
 ###################################
-# numbers[0] = x
+# numbers[y] = x
 # az x egy új lista tag ami lehet szám vagy szó is
-# és nem kicsréli a 0.-ik tagot hanem beszúrja a mostani elé
+# az x-et beszúrja a lista y-onodik helyére
 ###################################
 
 # ---------------------------------------------------------------------------------------------
@@ -39,6 +42,8 @@ print(numbers)
 ###################################
 
 # ---------------------------------------------------------------------------------------------
+print("insert")
+
 
 # Fűzzük a 6-os számot a lista VÉGÉRE
 numbers = [1, 2, 3, 4, 5]
