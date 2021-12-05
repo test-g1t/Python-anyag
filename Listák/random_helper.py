@@ -1,3 +1,4 @@
+# kell a matek könyvtár a kerekítéshez
 import math
 
 # bekérjük a számot
